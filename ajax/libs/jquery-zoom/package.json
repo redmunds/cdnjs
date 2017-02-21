@@ -2,13 +2,8 @@
   "name": "jquery-zoom",
   "filename": "jquery.zoom.min.js",
   "description": "Enlarge images on click or mouseover.",
-  "version": "1.7.14",
+  "version": "1.7.18",
   "homepage": "http://www.jacklmoore.com/zoom",
-  "authors": {
-    "name": "Jack Moore",
-    "url": "http://www.jacklmoore.com",
-    "email": "hello@jacklmoore.com"
-  },
   "keywords": [
     "zoom",
     "images",
@@ -17,18 +12,25 @@
     "jquery-plugin"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "http://github.com/jackmoore/zoom.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jackmoore/zoom.git",
-    "basePath": "",
-    "files": [
-      "jquery.zoom*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.zoom*.js"
+        ]
+      }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackmoore/zoom.git"
+  },
+  "author": {
+    "name": "Jack Moore",
+    "url": "http://www.jacklmoore.com",
+    "email": "hello@jacklmoore.com"
   }
 }

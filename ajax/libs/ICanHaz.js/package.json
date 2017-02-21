@@ -10,26 +10,18 @@
     "jquery",
     "zepto"
   ],
-  "maintainers": [
-    {
-      "name": "&yet",
-      "email": "contact@andyet.net",
-      "web": "http://andyet.net"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/andyet/ICanHaz.js"
-    }
-  ],
   "npmName": "icanhaz",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "ICanHaz.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyet/ICanHaz.js"
+  },
+  "license": "MIT"
 }

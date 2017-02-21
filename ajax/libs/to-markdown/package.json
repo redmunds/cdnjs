@@ -7,24 +7,22 @@
     "markdown"
   ],
   "author": "Dom Christie",
-  "version": "1.2.1",
+  "version": "3.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/domchristie/to-markdown.git"
   },
-  "browser": {
-    "jsdom": false
-  },
-  "dependencies": {
-    "collapse-whitespace": "1.1.1",
-    "jsdom": "^3.1.2"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/domchristie/to-markdown.git",
-    "basePath": "dist",
-    "files": [
-      "*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*"
+        ]
+      }
     ]
-  }
+  },
+  "license": "MIT"
 }

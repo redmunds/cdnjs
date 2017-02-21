@@ -23,21 +23,16 @@
   "homepage": "http://jquery.malsup.com/form/",
   "docs": "http://jquery.malsup.com/form/",
   "download": "http://malsup.github.com/jquery.form.js",
-  "dependencies": {
-    "jquery": ">=1.5"
-  },
-  "jam": {
-    "main": "jquery.form.js",
-    "dependencies": {
-      "jquery": ">=1.5.0"
-    }
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/malsup/form.git",
-    "basePath": "",
-    "files": [
-      "jquery.form.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.form.js"
+        ]
+      }
     ]
   },
   "repository": {

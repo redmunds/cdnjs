@@ -1,15 +1,11 @@
 {
   "name": "EventEmitter",
-  "version": "4.2.11",
+  "version": "5.1.0",
   "description": "Event based JavaScript for the browser",
   "filename": "EventEmitter.min.js",
-  "directories": {
-    "doc": "docs",
-    "test": "tests"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Wolfy87/EventEmitter.git"
+    "url": "git://github.com/Olical/EventEmitter.git"
   },
   "keywords": [
     "eventemitter",
@@ -26,10 +22,14 @@
   "readmeFilename": "README.md",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/Wolfy87/EventEmitter.git",
-    "basePath": "",
-    "files": [
-      "EventEmitter.*"
+    "target": "git://github.com/Olical/EventEmitter.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "EventEmitter.*"
+        ]
+      }
     ]
   }
 }

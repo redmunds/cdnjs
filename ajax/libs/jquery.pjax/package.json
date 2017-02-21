@@ -11,21 +11,23 @@
     "pushState",
     "jquery"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/defunkt/jquery-pjax"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/defunkt/jquery-pjax.git",
-    "basePath": "",
-    "files": [
-      "jquery.pjax.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.pjax.js"
+        ]
+      }
     ]
   },
   "license": {
     "url": "https://github.com/defunkt/jquery-pjax/blob/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defunkt/jquery-pjax"
   }
 }

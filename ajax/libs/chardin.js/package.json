@@ -14,21 +14,20 @@
     "email": "heelhook@littleq.net",
     "url": "http://heelhook.github.com"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/heelhook/chardin.js.git"
-    }
-  ],
   "npmName": "chardin.js",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "chardinjs.css",
         "chardinjs.js",
         "chardinjs.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heelhook/chardin.js.git"
+  },
+  "license": "Apache 2.0"
 }

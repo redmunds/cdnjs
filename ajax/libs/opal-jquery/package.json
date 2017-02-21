@@ -15,24 +15,9 @@
     "opal-jquery",
     "jquery"
   ],
-  "maintainers": [
-    {
-      "name": "Adam Beynon",
-      "web": "https://github.com/adambeynon"
-    },
-    {
-      "name": "Elia Schito",
-      "web": "http://elia.schito.me"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/opal/opal-jquery"
-    }
-  ],
-  "dependencies": {
-    "opal": "0.3.43"
-  },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opal/opal-jquery"
+  }
 }

@@ -1,9 +1,12 @@
 {
   "name": "riot",
-  "version": "2.2.4",
-  "description": "A React- like, 2.5K user interface library",
+  "version": "3.3.1",
+  "description": "A React-like user interface micro-library",
   "homepage": "https://muut.com/riotjs/",
-  "repository": "muut/riotjs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/riot/riot"
+  },
   "author": "Muut, Inc. and other contributors",
   "license": "MIT",
   "keywords": [
@@ -34,13 +37,17 @@
   "filename": "riot.min.js",
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/muut/riotjs.git",
-    "basePath": "",
-    "files": [
-      "riot.js",
-      "riot.min.js",
-      "riot+compiler.js",
-      "riot+compiler.min.js"
+    "target": "git://github.com/riot/riot.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "riot.js",
+          "riot.min.js",
+          "riot+compiler.js",
+          "riot+compiler.min.js"
+        ]
+      }
     ]
   }
 }

@@ -3,20 +3,29 @@
   "filename": "marked.min.js",
   "description": "A markdown parser built for speed",
   "author": "Christopher Jeffrey",
-  "version": "0.3.2",
-  "bin": "./bin/marked",
+  "version": "0.3.6",
   "man": "./man/marked.1",
   "preferGlobal": true,
-  "repository": "git://github.com/chjj/marked.git",
-  "homepage": "https://github.com/chjj/marked",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chjj/marked.git"
+  },
   "keywords": [
     "markdown",
     "markup",
     "html"
   ],
-  "tags": [
-    "markdown",
-    "markup",
-    "html"
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/chjj/marked.git",
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "marked.js"
+        ]
+      }
+    ]
+  },
+  "license": "MIT"
 }

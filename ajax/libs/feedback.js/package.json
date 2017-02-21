@@ -10,16 +10,9 @@
     "html5",
     "feedback"
   ],
-  "maintainers": [
-    {
-      "name": "Jayen Ashar",
-      "email": "jayen@suburbchooser.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/niklasvh/feedback.js"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niklasvh/feedback.js"
+  },
+  "license": "MIT"
 }

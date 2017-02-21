@@ -4,11 +4,6 @@
   "version": "0.2.1",
   "author": "Pierre Matri <pierre.matri@coolony.com>",
   "filename": "kiwi.min.js",
-  "dependencies": {
-    "frame": "*",
-    "underscore": "*",
-    "moment": "*"
-  },
   "keywords": [
     "kiwi",
     "asynchronous",
@@ -18,5 +13,9 @@
     "engine",
     "html"
   ],
-  "repository": "git://github.com/coolony/kiwi"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coolony/kiwi"
+  },
+  "license": "MIT"
 }

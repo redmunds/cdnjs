@@ -1,8 +1,8 @@
 {
   "name": "vault.js",
   "filename": "vault.min.js",
-  "version": "0.1.13",
-  "description": "Normalizer for local/sessionStorage & cookies.",
+  "version": "1.0.0",
+  "description": "Key-Value Storage of true data types for the browser and node",
   "homepage": "http://jimmybyrum.github.io/vault.js/",
   "author": "Jimmy Byrum (https://github.com/jimmybyrum)",
   "license": "MIT",
@@ -22,7 +22,7 @@
   "npmName": "vault.js",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "*.js"
       ]

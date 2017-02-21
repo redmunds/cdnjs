@@ -1,7 +1,7 @@
 {
   "name": "speakingurl",
-  "version": "6.0.0",
-  "description": "Generate a slug with a lot of options; create of so called 'static' or 'Clean URL' or 'Pretty URL' or 'nice-looking URL' or 'Speaking URL' or 'user-friendly URL' or 'SEO-friendly URL' from a string.",
+  "version": "13.0.0",
+  "description": "Generate a slug – transliteration with a lot of options",
   "homepage": "http://pid.github.io/speakingurl/",
   "github": "https://github.com/pid/speakingurl",
   "repository": {
@@ -29,7 +29,6 @@
     "url": "https://twitter.com/SaschaDroste"
   },
   "filename": "speakingurl.min.js",
-  "dependencies": {},
   "testling": {
     "harness": "mocha",
     "files": "test/*.js",
@@ -57,35 +56,17 @@
       ]
     }
   },
-  "jam": {
-    "dependencies": {},
-    "main": "speakingurl.min.js",
-    "shim": {
-      "deps": [],
-      "exports": [
-        "getSlug",
-        "createSlug"
-      ]
-    },
-    "include": [
-      "speakingurl.min.js",
-      "README.md"
-    ]
-  },
   "volo": {
     "url": "//cdnjs.cloudflare.com/ajax/libs/speakingurl/{version}/speakingurl.min.js"
   },
   "npmName": "speakingurl",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "speakingurl.min.js"
       ]
     }
   ],
-  "license": {
-    "type": "BSD",
-    "url": "https://raw.github.com/pid/speakingurl/master/LICENSE"
-  }
+  "license": "BSD-3-Clause"
 }

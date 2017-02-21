@@ -8,26 +8,20 @@
     "javascript",
     "physics"
   ],
-  "maintainers": [
-    {
-      "name": "Stefan Hedman",
-      "web": "http://steffe.se/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/schteppe/cannon.js"
-    }
-  ],
   "npmName": "cannon",
   "npmFileMap": [
     {
-      "basePath": "/build/",
+      "basePath": "build",
       "files": [
         "cannon.min.js",
         "cannon.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schteppe/cannon.js"
+  },
+  "license": "MIT",
+  "author": "Stefan Hedman <schteppe@gmail.com> (http://steffe.se)"
 }

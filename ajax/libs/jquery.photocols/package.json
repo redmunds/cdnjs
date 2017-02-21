@@ -13,25 +13,14 @@
   "npmName": "jquery.photocols",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "jquery.photocols.min.js"
       ]
     }
   ],
-  "dependencies": {
-    "jquery": ">=1.7"
-  },
-  "jam": {
-    "main": "jquery.photocols.js",
-    "dependencies": {
-      "jquery": ">=1.7"
-    },
-    "shim": {
-      "deps": [
-        "jquery"
-      ]
-    }
-  },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "jquery.photocols"
+  ]
 }

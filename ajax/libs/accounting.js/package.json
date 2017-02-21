@@ -10,25 +10,19 @@
     "money",
     "currency"
   ],
-  "maintainers": [
-    {
-      "name": "josscrowcroft"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/josscrowcroft/accounting.js"
-    }
-  ],
+  "license": "MIT",
   "npmName": "accounting",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "accounting.min.js",
         "accounting.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josscrowcroft/accounting.js"
+  }
 }

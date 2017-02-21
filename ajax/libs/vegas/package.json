@@ -1,9 +1,8 @@
 {
   "name": "vegas",
   "filename": "vegas.min.js",
-  "version": "2.1.3",
+  "version": "2.4.0",
   "homepage": "http://vegas.jaysalvat.com",
-  "authors": "Jay Salvat",
   "description": "Vegas - Fullscreen Backgrounds and Slideshows.",
   "keywords": [
     "background",
@@ -15,18 +14,21 @@
     "zepto"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jaysalvat/vegas"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jaysalvat/vegas.git",
-    "basePath": "dist/",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaysalvat/vegas"
+  },
+  "author": "Jay Salvat"
 }

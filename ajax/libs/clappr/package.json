@@ -1,29 +1,27 @@
 {
   "name": "clappr",
-  "version": "0.2.10",
+  "version": "0.2.65",
   "description": "An extensible media player for the web",
   "filename": "clappr.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/globocom/clappr.git"
+    "url": "https://github.com/clappr/clappr.git"
   },
   "author": "Globo.com",
   "license": "BSD",
-  "browser": {
-    "zepto": "clappr-zepto"
-  },
-  "homepage": "https://github.com/globocom/clappr",
-  "dependencies": {
-    "underscore": "1.7.0",
-    "mousetrap": "^1.4.6",
-    "scrollmonitor": "^1.0.8"
-  },
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/globocom/clappr.git",
-    "basePath": "dist",
-    "files": [
-      "**/clappr*"
+    "target": "git://github.com/clappr/clappr.git",
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
-  }
+  },
+  "keywords": [
+    "clappr"
+  ]
 }

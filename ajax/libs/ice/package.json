@@ -3,7 +3,7 @@
   "npmName": "ice",
   "npmFileMap": [
     {
-      "basePath": "/lib/",
+      "basePath": "lib",
       "files": [
         "*.js",
         "*.map"
@@ -11,7 +11,7 @@
     }
   ],
   "filename": "Ice.min.js",
-  "version": "3.6.0",
+  "version": "3.6.3",
   "description": "Ice is a comprehensive RPC framework with support for C++, .NET, Java, Python, JavaScript and more.",
   "homepage": "https://zeroc.com/",
   "keywords": [
@@ -20,20 +20,10 @@
     "framework",
     "toolkit"
   ],
-  "maintainers": [
-    {
-      "name": "Zeroc, Inc."
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/zeroc-ice/ice.git"
-    }
-  ],
   "namespace": "ice",
-  "license": {
-    "type": "GPLv2",
-    "url": "https://github.com/zeroc-ice/ice/blob/master/LICENSE"
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroc-ice/ice.git"
   }
 }

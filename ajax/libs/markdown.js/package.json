@@ -10,25 +10,22 @@
     "text processing",
     "ast"
   ],
-  "maintainers": [
-    {
-      "name": "Rodney Rehm",
-      "web": "http://rodneyrehm.de/en/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/evilstreak/markdown-js"
-    }
-  ],
   "npmName": "markdown",
   "npmFileMap": [
     {
-      "basePath": "lib/",
+      "basePath": "lib",
       "files": [
         "markdown*.js"
       ]
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evilstreak/markdown-js"
+  },
+  "license": "MIT",
+  "authors": [
+    "Dominic Baggott <dominic.baggott@gmail.com> (http://evilstreak.co.uk)",
+    "Ash Berlin <ash_markdownjs@firemirror.com> (http://ashberlin.com)"
   ]
 }

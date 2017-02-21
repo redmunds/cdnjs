@@ -1,0 +1,32 @@
+{
+  "name": "redux-form",
+  "version": "6.5.0",
+  "filename": "redux-form.min.js",
+  "description": "A higher order component decorator for forms using Redux and React",
+  "jsnext:main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikras/redux-form"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "flux",
+    "redux",
+    "react-redux",
+    "redux-form",
+    "form",
+    "decorator"
+  ],
+  "author": "Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
+  "license": "MIT",
+  "npmName": "redux-form",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
+}

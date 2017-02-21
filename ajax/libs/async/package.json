@@ -3,14 +3,14 @@
   "npmName": "async",
   "npmFileMap": [
     {
-      "basePath": "/lib/",
+      "basePath": "dist",
       "files": [
-        "*"
+        "**/*"
       ]
     }
   ],
   "filename": "async.min.js",
-  "version": "1.4.2",
+  "version": "2.1.5",
   "description": "Higher-order functions and common patterns for asynchronous code",
   "author": "Caolan McMahon",
   "repository": {

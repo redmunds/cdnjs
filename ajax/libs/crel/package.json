@@ -1,33 +1,26 @@
 {
   "name": "crel",
-  "version": "2.1.8",
+  "version": "3.0.0",
   "filename": "crel.min.js",
   "description": "A small, simple, and fast DOM creation utility",
   "keywords": [
     "crel",
     "DOM"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/korynunn/crel"
-    }
-  ],
-  "maintainers": [
-    {
-      "name": "Kory Nunn",
-      "web": "http://korynunn.com"
-    }
-  ],
   "npmName": "crel",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "crel.js",
         "crel.min.js"
       ]
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/korynunn/crel"
+  },
+  "author": "Kory Nunn <knunn187@gmail.com>"
 }

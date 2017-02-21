@@ -4,6 +4,10 @@
   "version": "2.0.0",
   "description": "Effortless asynchronous application development for the modern web and enterprise. This library internally uses SockJS to send and receive data to a SockJS vert.x server called the SockJS bridge. http://vertx.io/core_manual_js.html#sockjs-eventbus-bridge",
   "homepage": "http://vertx.io/",
+  "licenses": [
+    "EPL-1.0",
+    "Apache-2.0"
+  ],
   "keywords": [
     "vertx",
     "vert.x",
@@ -11,16 +15,8 @@
     "eventbus",
     "SockJS"
   ],
-  "maintainers": [
-    {
-      "name": "Tim Fox",
-      "web": "http://vertx.io/community.html"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/vert-x/vert.x"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vert-x/vert.x"
+  }
 }

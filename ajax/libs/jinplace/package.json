@@ -3,16 +3,6 @@
   "filename": "jinplace.min.js",
   "version": "1.2.1",
   "description": "A jQuery plugin for in place editing on a page, primarly controlled by HTML markup.",
-  "repositories": [
-    {
-      "type": "hg",
-      "url": "https://bitbucket.org/itinken/jinplace"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/itinken/jinplace"
-    }
-  ],
   "keywords": [
     "jquery-plugin",
     "inline",
@@ -23,17 +13,18 @@
     "name": "Steve Ratcliffe"
   },
   "homepage": "https://bitbucket.org/itinken/jinplace",
-  "dependencies": {
-    "jquery-untouched": ">=1.7"
-  },
   "npmName": "jinplace",
   "npmFileMap": [
     {
-      "basePath": "/js/",
+      "basePath": "js",
       "files": [
         "*.js"
       ]
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "hg",
+    "url": "https://bitbucket.org/itinken/jinplace"
+  }
 }

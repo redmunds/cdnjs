@@ -1,6 +1,6 @@
 {
   "name": "ekko-lightbox",
-  "version": "3.3.0",
+  "version": "5.1.1",
   "filename": "ekko-lightbox.min.js",
   "description": "A lightbox gallery plugin for Bootstrap 3 based on the modal plugin",
   "keywords": [
@@ -10,7 +10,6 @@
     "jquery",
     "modal"
   ],
-  "homepage": "https://github.com/ashleydw/lightbox",
   "author": "ashleydw <hello@ashleyd.ws>",
   "style": "dist/ekko-lightbox.css",
   "less": "ekko-lightbox.less",
@@ -25,7 +24,7 @@
   "npmName": "ekko-lightbox",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "*"
       ]

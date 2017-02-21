@@ -1,7 +1,7 @@
 {
   "name": "jquery.scroll4ever",
   "filename": "jquery.scroll4ever.min.js",
-  "description": "A jQuery plugin for infinite scrolling",
+  "description": "jQuery infinite scroll plugin",
   "version": "1.0.0",
   "author": "Luan Almeida <luanlmd@gmail.com>",
   "homepage": "http://sb.luanlmd.com/jquery.scroll4ever",
@@ -10,20 +10,22 @@
     "scroll",
     "jquery"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/luanlmd/jquery.scroll4ever.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/luanlmd/jquery.scroll4ever.git",
-    "basePath": "",
-    "files": [
-      "jquery.scroll4ever.js",
-      "jquery.scroll4ever.min.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.scroll4ever.js",
+          "jquery.scroll4ever.min.js"
+        ]
+      }
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luanlmd/jquery.scroll4ever.git"
+  }
 }

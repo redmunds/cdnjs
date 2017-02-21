@@ -3,7 +3,6 @@
   "filename": "instagram.min.js",
   "version": "0.3.1",
   "description": "Instagram jQuery plugin",
-  "homepage": "https://github.com/potomak/jquery-instagram",
   "keywords": [
     "jquery",
     "instagram",
@@ -12,17 +11,9 @@
     "pictures",
     "mobile"
   ],
-  "maintainers": [
-    {
-      "name": "Giovanni Cappellotto",
-      "web": "http://www.focustheweb.com/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/potomak/jquery-instagram"
-    }
-  ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/potomak/jquery-instagram"
+  }
 }

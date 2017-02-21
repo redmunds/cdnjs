@@ -1,8 +1,8 @@
 {
   "name": "machina.js",
   "filename": "machina.min.js",
-  "description": "A library for creating powerful and flexible finite state machines.  Loosely inspired by Erlang/OTP's gen_fsm behavior.",
-  "version": "1.1.2",
+  "description": "A library for creating powerful and flexible finite state machines. Loosely inspired by Erlang/OTP's gen_fsm behavior.",
+  "version": "2.0.0",
   "url": "http://machina-js.org/",
   "homepage": "http://machina-js.org/",
   "repository": {
@@ -22,9 +22,6 @@
     "machina.js",
     "machinajs"
   ],
-  "dependencies": {
-    "underscore": ">=1.1.7"
-  },
   "licenses": [
     "MIT",
     {
@@ -35,7 +32,7 @@
   "npmName": "machina",
   "npmFileMap": [
     {
-      "basePath": "/lib/",
+      "basePath": "lib",
       "files": [
         "machina.js",
         "machina.min.js"

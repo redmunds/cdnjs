@@ -10,24 +10,22 @@
     "infinite",
     "masonry"
   ],
-  "maintainers": [
-    {
-      "name": "Luke Shumard",
-      "web": "http://www.lukeshumard.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/infinite-scroll/infinite-scroll"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/infinite-scroll/infinite-scroll.git",
-    "basePath": "",
-    "files": [
-      "jquery.infinitescroll*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.infinitescroll*.js"
+        ]
+      }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infinite-scroll/infinite-scroll"
+  },
+  "license": "MIT",
+  "author": "paulirish"
 }

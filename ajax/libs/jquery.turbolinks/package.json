@@ -5,10 +5,7 @@
   "author": "Sasha Koss <kossnocorp@gmail.com>",
   "description": "jQuery plugin for drop-in fix binded events problem caused by Turbolinks",
   "license": "MIT",
-  "maintainers": [
-    {
-      "name": "Sasha Koss",
-      "web": "http://koss.nocorp.me"
-    }
+  "keywords": [
+    "jquery.turbolinks"
   ]
 }

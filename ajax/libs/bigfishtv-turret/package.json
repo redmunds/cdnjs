@@ -1,6 +1,6 @@
 {
   "name": "bigfishtv-turret",
-  "version": "3.0.0",
+  "version": "3.3.1",
   "filename": "turret.min.css",
   "description": "A responsive frontend framework build with Less to normalize styles for default HTML elements",
   "homepage": "http://turret.bigfish.tv",
@@ -21,9 +21,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/bigfishtv/turret.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

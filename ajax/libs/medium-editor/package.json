@@ -1,6 +1,6 @@
 {
   "name": "medium-editor",
-  "version": "5.7.0",
+  "version": "5.22.2",
   "author": "Davi Ferreira <hi@daviferreira.com>",
   "description": "Medium.com WYSIWYG editor clone.",
   "repository": {
@@ -19,13 +19,17 @@
     "registry": "http://registry.npmjs.org/"
   },
   "license": "MIT",
-  "filename": "/js/medium-editor.min.js",
+  "filename": "js/medium-editor.min.js",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/yabwe/medium-editor.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

@@ -5,25 +5,24 @@
   "version": "1.0.6",
   "homepage": "http://finraos.github.io/MSL",
   "keywords": [],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/FINRAOS/MSL.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/FINRAOS/MSL.git",
-    "basePath": "/msl-client-browser/",
-    "files": [
-      "appcontainer-driver.js",
-      "appcontainer-driver.min.js",
-      "mockapi-browser.js",
-      "mockapi-browser.min.js"
+    "fileMap": [
+      {
+        "basePath": "msl-client-browser",
+        "files": [
+          "appcontainer-driver.js",
+          "appcontainer-driver.min.js",
+          "mockapi-browser.js",
+          "mockapi-browser.min.js"
+        ]
+      }
     ]
   },
-  "license": {
-    "type": "Apache 2.0",
-    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FINRAOS/MSL.git"
   }
 }

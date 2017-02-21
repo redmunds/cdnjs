@@ -6,7 +6,7 @@
   "npmName": "legojs",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "lego.min.js"
       ]
@@ -19,5 +19,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/tybenz/legojs.git"
-  }
+  },
+  "keywords": [
+    "legojs"
+  ]
 }

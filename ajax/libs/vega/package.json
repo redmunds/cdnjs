@@ -1,33 +1,35 @@
 {
   "name": "vega",
   "filename": "vega.min.js",
-  "version": "2.2.1",
-  "description": "Vega is a visualization grammar, a declarative format for creating, saving and sharing visualization designs. ",
-  "homepage": "http://trifacta.github.io/vega/",
+  "version": "2.6.5",
+  "description": "The Vega visualization grammar.",
+  "homepage": "https://vega.github.io/vega/",
   "keywords": [
     "vega",
     "vega.js"
   ],
-  "maintainers": [
-    {
-      "name": "Trifacta Inc.",
-      "web": "http://trifacta.github.io/vega/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/trifacta/vega.git"
-    }
-  ],
   "npmName": "vega",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
-        "vega.js",
-        "vega.min.js"
+        "vega*.+(js|css|map)"
+      ]
+    },
+    {
+      "basePath": "build",
+      "files": [
+        "**/vega*.+(js|css|map)"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vega/vega.git"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "UW Interactive Data Lab",
+    "url": "http://idl.cs.washington.edu"
+  }
 }

@@ -3,10 +3,6 @@
   "filename": "selectableScroll.min.js",
   "version": "0.1.4",
   "title": "An extended jQuery-ui selectable with scroll capabilities",
-  "dependencies": {
-    "jquery": ">=1.8",
-    "jquery-ui": ">=1.10"
-  },
   "description": "This is an extension of the original jQuery ui selectable plugin. It has capabilities to scroll vertical and horizontal as well.",
   "keywords": [
     "jquery",
@@ -28,8 +24,5 @@
     "type": "git",
     "url": "http://karolyi.github.com/ui-selectableScroll/"
   },
-  "license": {
-    "type": "GPLv3",
-    "url": "http://opensource.org/licenses/GPL-3.0"
-  }
+  "license": "GPL-3.0"
 }

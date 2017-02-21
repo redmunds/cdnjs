@@ -2,21 +2,26 @@
   "name": "knockout-postbox",
   "version": "0.5.2",
   "filename": "knockout-postbox.min.js",
-  "dependencies": {
-    "knockout": ">= 2.0"
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/rniemeyer/knockout-postbox.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/rniemeyer/knockout-postbox.git",
-    "basePath": "build",
-    "files": [
-      "*"
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "*"
+        ]
+      }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rniemeyer/knockout-postbox.git"
+  },
+  "license": "MIT",
+  "description": "A small library that uses Knockout's native pub/sub capabilities to facilitate decoupled communication between separate view models or components.",
+  "keywords": [
+    "knockout",
+    "postbox"
+  ]
 }

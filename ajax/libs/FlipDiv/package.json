@@ -8,12 +8,6 @@
     "name": "Erik Engi",
     "email": "kireerike@gmail.com"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/kireerik/FlipDiv"
-    }
-  ],
   "keywords": [
     "FlipDiv",
     "menu",
@@ -25,10 +19,18 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/kireerik/FlipDiv.git",
-    "basePath": "dist",
-    "files": [
-      "*.js"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kireerik/FlipDiv"
+  }
 }

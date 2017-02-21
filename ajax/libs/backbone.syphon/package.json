@@ -1,23 +1,27 @@
 {
   "name": "backbone.syphon",
   "filename": "backbone.syphon.min.js",
-  "version": "0.4.1",
+  "version": "0.7.0",
   "description": "Serialize a Backbone.View in to a JavaScript object",
-  "homepage": "https://github.com/derickbailey/backbone.syphon/",
+  "homepage": "https://github.com/marionettejs/backbone.syphon/",
   "keywords": [
-    "modelbinding",
-    "models"
+    "backbone",
+    "serialize",
+    "client",
+    "browser"
   ],
-  "maintainers": [
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marionettejs/backbone.syphon"
+  },
+  "npmName": "backbone.syphon",
+  "npmFileMap": [
     {
-      "name": "Derick Bailey",
-      "email": "derickbailey@gmail.com"
+      "basePath": "lib",
+      "files": [
+        "**/*"
+      ]
     }
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/derickbailey/backbone.syphon"
-    }
-  ]
+  "license": "MIT"
 }

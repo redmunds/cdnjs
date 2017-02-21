@@ -10,10 +10,9 @@
     "object-oriented"
   ],
   "author": "Matias Fidemraizer",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/mfidemraizer/joopl.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfidemraizer/joopl.git"
+  },
+  "license": "Apache-2.0"
 }

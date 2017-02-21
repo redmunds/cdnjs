@@ -1,6 +1,6 @@
 {
   "name": "jquery.googlemap",
-  "version": "1.4.2",
+  "version": "1.5",
   "filename": "jquery.googlemap.min.js",
   "author": {
     "name": "Thibault HENRY",
@@ -22,15 +22,16 @@
     "handsontable",
     "spreadsheet"
   ],
-  "dependencies": {
-    "jquery": ">=1.7"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Tilotiti/jQuery-Google-Map.git",
-    "basePath": "",
-    "files": [
-      "jquery.googlemap.*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.googlemap.*"
+        ]
+      }
     ]
   },
   "repository": {

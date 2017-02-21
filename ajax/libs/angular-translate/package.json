@@ -2,7 +2,7 @@
   "name": "angular-translate",
   "filename": "angular-translate.min.js",
   "description": "i18n for your Angular apps, made easy",
-  "version": "2.7.2",
+  "version": "2.14.0",
   "homepage": "http://angular-translate.github.io",
   "keywords": [
     "framework",
@@ -12,19 +12,19 @@
     "angular.js",
     "angular-translate"
   ],
-  "repositories": [
+  "npmName": "angular-translate",
+  "npmFileMap": [
     {
-      "type": "git",
-      "url": "https://github.com/angular-translate/bower-angular-translate"
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
     }
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/angular-translate/bower-angular-translate.git",
-    "basePath": "",
-    "files": [
-      "*.js"
-    ]
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-translate/bower-angular-translate"
   },
-  "license": "MIT"
+  "author": "Pascal Precht"
 }

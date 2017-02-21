@@ -1,8 +1,7 @@
 {
   "name": "angular-ui-tree",
   "filename": "angular-ui-tree.min.js",
-  "version": "2.9.0",
-  "homepage": "https://github.com/angular-ui-tree/angular-ui-tree",
+  "version": "2.22.5",
   "authors": [
     "Jim Liu <https://github.com/JimLiu>",
     "Voles <https://github.com/Voles>"
@@ -19,18 +18,20 @@
     "node"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/angular-ui-tree/angular-ui-tree"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/angular-ui-tree/angular-ui-tree.git",
-    "basePath": "dist/",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-ui-tree/angular-ui-tree"
   }
 }

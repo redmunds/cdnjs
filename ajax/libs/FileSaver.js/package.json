@@ -1,23 +1,24 @@
 {
   "name": "FileSaver.js",
   "filename": "FileSaver.min.js",
-  "version": "2014-11-29",
+  "version": "1.3.3",
   "description": "An HTML5 saveAs() FileSaver implementation.",
   "homepage": "https://github.com/eligrey/FileSaver.js/",
   "keywords": [
     "filesaver"
   ],
-  "maintainers": [
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eligrey/FileSaver.js"
+  },
+  "license": "MIT",
+  "npmName": "file-saver",
+  "npmFileMap": [
     {
-      "name": "Eli Grey",
-      "email": "me@eligrey.com",
-      "web": "http://eligrey.com/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/eligrey/FileSaver.js"
+      "basePath": "",
+      "files": [
+        "FileSaver*.js"
+      ]
     }
   ]
 }

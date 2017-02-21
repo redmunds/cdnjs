@@ -1,9 +1,8 @@
 {
   "name": "jsonld",
-  "version": "0.3.26",
+  "version": "0.4.11",
   "filename": "jsonld.min.js",
   "description": "A JSON-LD Processor and API implementation in JavaScript.",
-  "homepage": "https://github.com/digitalbazaar/jsonld.js",
   "author": {
     "name": "Digital Bazaar, Inc.",
     "email": "support@digitalbazaar.com",
@@ -24,14 +23,11 @@
   "npmName": "jsonld",
   "npmFileMap": [
     {
-      "basePath": "/js/",
+      "basePath": "js",
       "files": [
         "jsonld.js"
       ]
     }
   ],
-  "license": {
-    "type": "BSD",
-    "url": "https://github.com/digitalbazaar/jsonld.js/raw/master/LICENSE"
-  }
+  "license": "BSD-3-Clause"
 }

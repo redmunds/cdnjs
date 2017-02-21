@@ -1,0 +1,4 @@
+pipeline:
+  clone:
+    image: peterdavehello/cdnjs-drone-ci
+    sparseCheckout: tools/sparse-checkout.template

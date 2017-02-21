@@ -10,27 +10,22 @@
     "css3",
     "effects"
   ],
-  "maintainers": [
-    {
-      "name": "Hakim El Hattab",
-      "email": "hakim.elhattab@gmail.com",
-      "web": "http://hakim.se/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/hakimel/stroll.js.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/hakimel/stroll.js.git",
-    "basePath": "",
-    "files": [
-      "css/stroll*",
-      "js/stroll*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "css/stroll*",
+          "js/stroll*"
+        ]
+      }
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hakimel/stroll.js.git"
+  }
 }

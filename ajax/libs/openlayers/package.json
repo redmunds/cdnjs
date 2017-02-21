@@ -1,19 +1,27 @@
 {
   "name": "openlayers",
-  "filename": "OpenLayers.js",
-  "version": "2.13.1",
+  "filename": "ol.js",
+  "version": "4.0.1",
   "description": "OpenLayers is a JavaScript library for building map applications on the web.",
   "homepage": "http://openlayers.org/",
-  "license": "BSD",
+  "license": "BSD-2-Clause",
   "keywords": [
     "map",
     "openlayers",
+    "ol",
     "maps"
   ],
-  "repositories": [
+  "npmName": "openlayers",
+  "npmFileMap": [
     {
-      "type": "git",
-      "url": "https://github.com/openlayers/openlayers"
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openlayers/openlayers"
+  }
 }

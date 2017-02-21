@@ -1,17 +1,8 @@
 {
   "name": "cytoscape",
-  "npmName": "cytoscape",
-  "npmFileMap": [
-    {
-      "basePath": "/dist/",
-      "files": [
-        "cytoscape*"
-      ]
-    }
-  ],
-  "version": "2.4.7",
+  "version": "2.7.15",
   "filename": "cytoscape.min.js",
-  "description": "A JavaScript graph library for analysis and visualisation",
+  "description": "Graph theory (a.k.a. network) library for analysis and visualisation",
   "homepage": "http://cytoscape.github.io/cytoscape.js",
   "license": "LGPL",
   "keywords": [
@@ -25,5 +16,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/cytoscape/cytoscape.js.git"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/cytoscape/cytoscape.js.git",
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*cytoscape*"
+        ]
+      }
+    ]
   }
 }

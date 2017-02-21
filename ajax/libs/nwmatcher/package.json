@@ -10,29 +10,26 @@
     "selector",
     "ender"
   ],
-  "maintainers": [
-    {
-      "name": "Diego Perini",
-      "email": "diego.perini@gmail.com",
-      "web": "http://www.iport.it/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/dperini/nwmatcher.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/dperini/nwmatcher.git",
-    "basePath": "src/",
-    "files": [
-      "nwmatcher*.js"
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "nwmatcher*.js"
+        ]
+      }
     ]
   },
-  "requiredFiles": [
-    "nwmatcher-base.min.js",
-    "nwmatcher-noqsa.min.js"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dperini/nwmatcher.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Diego Perini",
+    "email": "diego.perini@gmail.com",
+    "web": "http://www.iport.it/"
+  }
 }
